@@ -1,0 +1,55 @@
+/* PIPEX Basic Test Project Styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.highlight {
+    background-color: #fffacd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#demo-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#demo-button:hover {
+    background-color: #2980b9;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f6f3;
+    border-left: 4px solid #1abc9c;
+    border-radius: 4px;
+    display: none;
+}
